@@ -1,0 +1,2 @@
+Hello from the Mailows examples repository.
+This is a harmless sample attachment used by send_with_attachment.py.
