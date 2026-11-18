@@ -1,0 +1,21 @@
+{
+  "name": "mailows-examples-typescript",
+  "private": true,
+  "type": "module",
+  "description": "Send an email with an attachment through the Mailows MCP server",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "start": "tsx src/send-with-attachment.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

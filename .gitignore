@@ -1,0 +1,18 @@
+# Local secrets and OAuth state — never commit these
+.env
+.env.*
+!.env.example
+.mcp-token.json
+oauth-state.json
+*.token.json
+
+# Local environments and build output
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
